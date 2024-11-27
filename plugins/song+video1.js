@@ -16,7 +16,7 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
 
     const config = await readEnv();
-if(config.BLOCK_JID.includes(from)) return
+
     
 if(!q) return reply ("*_Please give me a title or url._*")
 
@@ -123,7 +123,7 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
 
 const config = await readEnv();
-if(config.BLOCK_JID.includes(from)) return
+
     
 if(!q) return reply ("*_Please give me a title or url._*")
 

@@ -1,0 +1,122 @@
+<div align="center">
+
+<img src="https://github.com/RK1905101/RK1905101/blob/master/Name.svg" width="600px"></h1>
+
+# 😈"Code X RuWA V1" BOT😈
+
+====================================================================
+
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=CODE+X+RUWA+V1+ＷＨＡＴＳＡＰＰ+ＢＯＴ)](https://git.io/typing-svg)
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+
+<p align="center">  
+<a href="https://cdn.ironman.my.id/i/g1mmt2.jpg">
+<img alt="CodeXRuWA" height="500" src="https://cdn.ironman.my.id/i/g1mmt2.jpg">
+
+<div align="center">  
+    
+<a href="https://github.com/CodeXRuWA/Code-X-RuWA-V1">
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FCode-X-RuWA%2FCode-X-RuWA-V1&count_bg=%2379C83D&title_bg=%23555555&icon=gitpod.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false" alt="Views"/>
+
+<hr>
+
+<b>FORK NOW</b>
+           </a>  
+              <a href="https://github.com/CodeXRuWA/Code-X-RuWA-V1/fork">
+              <img src="https://img.shields.io/github/forks/CodeXRuWA/Code-X-RuWA?label=Fork&style=social">
+
+
+
+<hr>
+
+<b>GET SESSION ID</b>
+
+> GET SESSION ID VIA QR CODE 01
+
+<a href='https://pair-code-production.up.railway.app/qr/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+
+> GET SESSION ID VIA PAIR CODE 02
+
+<a href='https://pair-code-production.up.railway.app/pair/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+
+> GET SESSION ID VIA PAIR CODE 03
+
+<a href='https://express-pairing-code2-1.onrender.com/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+
+<hr>
+
+<b>DEPLOY</b>
+</br>
+</br>
+[![Ruwa](https://img.shields.io/github/workflow/status/CalvinAllen/OpenInNotepadPlusPlus/release_build_and_deploy?logo=github&style=for-the-badge)](https://github.com/CodeXRuWA/Code-X-RuWA-V1/new/main?filename=.github%2Fworkflows%2Fnode.js.yml&workflow_template=ci%2Fnode.js)
+
+<b>COPY WORKFLOW CODE</b></br>
+
+
+         name: Node.js CI
+
+         on:
+           push:
+             branches:
+               - 💜️ᴄᴏᴅᴇXʀᴜᴡᴀ-ᴠ1💜️
+           pull_request:
+             branches:
+               - 💜️ᴄᴏᴅᴇXʀᴜᴡᴀ-ᴠ1💜️
+
+         jobs:
+           build:
+
+             runs-on: ubuntu-latest
+
+             strategy:
+               matrix:
+                 node-version: [20.x]
+
+             steps:
+             - name: Checkout repository
+               uses: actions/checkout@v3
+
+             - name: Set up Node.js
+               uses: actions/setup-node@v3
+               with:
+                 node-version: ${{ matrix.node-version }}
+
+             - name: Install dependencies
+               run: npm install
+
+             - name: Start application
+               run: npm start
+
+
+<hr>
+
+<b>CONTACT OWNER</h3>
+
+
+[![RUWA](https://telegra.ph/file/99460844d012cad1b7ee4.jpg)](https://wa.me/94725337377)
+
+<b>MY WA BOT GROUP</h3>
+
+[![NIMAYT](https://img.shields.io/badge/AI-ZONE-green?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/LjjaXGg10tXBAvFfPXEMz1)
+
+
+<b>©️ Copyright Credit</b>  
+< Bot Base - Prabth-MD >     < Pair Code Link - Asitha-MD > 
+
+<b>❤ Special thanks to everyone who helped ❤</b></br>
+
+<p align="center">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=fffff&center=true&vCenter=true&multiline=false&lines=Code-X-RuWA-V1-OWNER-ISHARA-RUWAN" alt="">
+</p>
+
+![](https://raw.githubusercontent.com/MayMeow/MayMeow/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/MayMeow/MayMeow/output/github-contribution-grid-snake.svggh-light-mode-only)
+
+<img src="https://i.imgur.com/tzYKRfd.gif">
+</div>
+<hr>
+</div>
+</div>
+    </center>
+</body>

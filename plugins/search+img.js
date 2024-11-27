@@ -18,10 +18,8 @@ if (!q) return reply("*_Please give me a text._*")
         let data = await fetchJson(`https://dark-yasiya-api-new.vercel.app/download/piniimg?text=${q}`)
 
       
-        await conn.sendMessage(from,{image:{url:data.result[1].images_url}},{quoted:mek})
-        await conn.sendMessage(from,{image:{url:data.result[2].images_url}},{quoted:mek})
-        await conn.sendMessage(from,{image:{url:data.result[3].images_url}},{quoted:mek})
-        await conn.sendMessage(from,{image:{url:data.result[4].images_url}},{quoted:mek})
+        await conn.sendMessage(from,{image:{url:data.result.images_url}},{quoted:mek})
+       
         
 
 }catch(e){

@@ -81,13 +81,13 @@ cmd(
 )
 
 
-const GOOGLE_API_KEY = 'AIzaSyDebFT-uY_f82_An6bnE9WvVcgVbzwDKgU',
+const GOOGLE_API_KEY = 'AIzaSyBmGORzMvAVQcntTeNh02-ekUp9LjGupUw',
   GOOGLE_CX = '45b94c5cef39940d1'
 
 
 cmd(
   {
-    pattern: 'img',
+    pattern: 'img2',
     alias: ['image'],
     desc: 'Search and send images from Google.',
     react: '\uD83D\uDDBC️',

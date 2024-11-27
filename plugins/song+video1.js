@@ -17,7 +17,6 @@ try{
 
     const config = await readEnv();
 
-    
 if(!q) return reply ("*_Please give me a title or url._*")
 
     if(q.startsWith("https://") && q.includes("watch?v=")) {
@@ -124,7 +123,6 @@ try{
 
 const config = await readEnv();
 
-    
 if(!q) return reply ("*_Please give me a title or url._*")
 
 if(q.startsWith("https://") && q.includes("watch?v=")) {

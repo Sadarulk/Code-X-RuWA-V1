@@ -87,7 +87,7 @@ const GOOGLE_API_KEY = 'AIzaSyBmGORzMvAVQcntTeNh02-ekUp9LjGupUw',
 
 cmd(
   {
-    pattern: 'img2',
+    pattern: 'img',
     alias: ['image'],
     desc: 'Search and send images from Google.',
     react: '\uD83D\uDDBC️',

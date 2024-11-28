@@ -16,9 +16,9 @@ try{
 
 let vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + `FN: CodeXRuWA\n` 
+            + `FN: ISHARA\n` 
             + `ORG: Web Developer;\n` 
-            + `TEL;type=CELL;type=VOICE;waid=94787835062:+94787835062\n` 
+            + `TEL;type=CELL;type=VOICE;waid=94725337377:+94725337377\n` 
             + 'END:VCARD'
 
 await conn.sendMessage(from, { 
@@ -31,3 +31,5 @@ console.log(e)
 reply(`${e}`)
 }
 });
+
+

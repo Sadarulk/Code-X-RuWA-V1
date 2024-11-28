@@ -16,14 +16,14 @@ try{
 
 let vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + `FN: ASITHA\n` 
-            + `ORG: Web Developer;\n` 
-            + `TEL;type=CELL;type=VOICE;waid=94789123880:+94789123880\n` 
+            + `FN: CodeXRuWA\n` 
+            + `ORG: ᴄᴏᴅᴇXʀᴜᴡᴀ V1 - BOT OWNER 😈;\n` 
+            + `TEL;type=CELL;type=VOICE;waid=94787835062:+94787835062\n` 
             + 'END:VCARD'
 
 await conn.sendMessage(from, { 
     contacts: { 
-        displayName: `ASITHA`, 
+        displayName: `ISHARA`, 
         contacts: [{ vcard }] 
     },  quoted: mek})
 }catch(e){

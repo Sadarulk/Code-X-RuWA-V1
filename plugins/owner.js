@@ -13,12 +13,12 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + '𝐈𝐬𝐡𝐚𝐫𝐚 𝐑𝐮𝐰𝐚𝐧 🇱🇰\n' 
+            + 'Ishara Ruwan 🇱🇰\n' 
             + 'ORG:ᴄᴏᴅᴇXʀᴜᴡᴀ;\n'
             + 'TEL;type=CELL;type=VOICE;waid=94725337377:+94 72 533 7377\n'
             + 'END:VCARD'
         
-await conn.sendMessage(from,{ contacts: { displayName: 'Ishara', contacts: [{ vcard }] }})
+await conn.sendMessage(from,{ contacts: { displayName: 'Sasanka', contacts: [{ vcard }] }})
         
         
 }catch(e){

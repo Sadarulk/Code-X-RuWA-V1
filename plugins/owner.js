@@ -11,14 +11,14 @@ cmd({
 async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
 
-const vcard = 'BEGIN:VCARD\n'
-            + 'VERSION:3.0\n' 
-            + 'Ishara Ruwan 🇱🇰\n' 
-            + 'ORG:ᴄᴏᴅᴇXʀᴜᴡᴀ;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=94725337377:+94 72 533 7377\n'
-            + 'END:VCARD'
+let vcard = 'BEGIN:VCARD\n' 
+            + 'VERSION:1.0\n' 
+            + `FN: ISHARA RUWAN 🇱🇰\n` 
+            + `ORG: ᴄᴏᴅᴇXʀᴜWA'v1-Owner😈;\n` 
+            + `TEL;type=CELL;type=VOICE;waid=94725337377:++94725337377\n` 
+            + 'END:VCARD'
         
-await conn.sendMessage(from,{ contacts: { displayName: 'Sasanka', contacts: [{ vcard }] }})
+await conn.sendMessage(from,{ contacts: { displayName: 'Ishara Ruwan', contacts: [{ vcard }] }})
         
         
 }catch(e){

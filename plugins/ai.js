@@ -1,1 +1,23 @@
-function _0xe857(){const _0x33d9c6=['1646748HGVtZO','../lib/functions','2875152qxTSFd','\x0a\x0a>\x20ᴄᴏᴅᴇXʀᴜᴡᴀ\x20ᴠ1\x20ᴡʜᴀᴛsᴀᴘᴘ\x20ʙᴏᴛ','../command','5291610FMMwRO','https://chatgptforprabath-md.vercel.app/api/gptv1?q=','main','data','978778pZIFnD','239738KWFhjL','3549435RxUCHS','11453372sdXiRR','AI\x20chat\x20feature'];_0xe857=function(){return _0x33d9c6;};return _0xe857();}function _0x1358(_0x4cee6e,_0x510c69){const _0xe8575=_0xe857();return _0x1358=function(_0x135884,_0x1a0fed){_0x135884=_0x135884-0x165;let _0x4fe731=_0xe8575[_0x135884];return _0x4fe731;},_0x1358(_0x4cee6e,_0x510c69);}const _0x5beae1=_0x1358;(function(_0xfa87fe,_0x515ded){const _0x3774f2=_0x1358,_0x2a47a2=_0xfa87fe();while(!![]){try{const _0x8c5e3a=parseInt(_0x3774f2(0x172))/0x1+parseInt(_0x3774f2(0x165))/0x2+-parseInt(_0x3774f2(0x16b))/0x3+parseInt(_0x3774f2(0x169))/0x4+parseInt(_0x3774f2(0x166))/0x5+parseInt(_0x3774f2(0x16e))/0x6+-parseInt(_0x3774f2(0x167))/0x7;if(_0x8c5e3a===_0x515ded)break;else _0x2a47a2['push'](_0x2a47a2['shift']());}catch(_0x22b142){_0x2a47a2['push'](_0x2a47a2['shift']());}}}(_0xe857,0x7beb8));const config=require('../config'),{cmd,commands}=require(_0x5beae1(0x16d)),{fetchJson}=require(_0x5beae1(0x16a));cmd({'pattern':'ai','desc':_0x5beae1(0x168),'category':_0x5beae1(0x170),'filename':__filename},async(_0x324cd5,_0x231f6a,_0x21ae6a,{from:_0x4d2d12,quoted:_0x3783e4,body:_0x362db2,isCmd:_0x4d4bdf,command:_0x1a4e3a,args:_0x2f0bd9,q:_0x22aadb,isGroup:_0x5e922b,sender:_0x224759,senderNumber:_0xeb2891,botNumber2:_0x2286c4,botNumber:_0x1eddd2,pushname:_0x3b3b89,isMe:_0x1833da,isOwner:_0x6236be,groupMetadata:_0x58460a,groupName:_0x61f758,participants:_0x12f92b,groupAdmins:_0x36df24,isBotAdmins:_0x3be7ac,isAdmins:_0x36e523,reply:_0x4ae691})=>{const _0x625b9b=_0x5beae1;try{let _0x34658a=await fetchJson(_0x625b9b(0x16f)+_0x22aadb);return _0x4ae691(_0x34658a[_0x625b9b(0x171)]+_0x625b9b(0x16c));}catch(_0x1c6bcc){console['log'](_0x1c6bcc),_0x4ae691(''+_0x1c6bcc);}});
+const config = require('../config')
+const {cmd , commands} = require('../command')
+const { fetchJson } = require('../lib/functions')
+
+cmd({
+    pattern: "ai",
+    desc: "AI chat feature",
+    category: "main",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+
+let data = await fetchJson(`https://chatgptforprabath-md.vercel.app/api/gptv1?q=${q}`)
+
+return reply(`${data.data}\n\n> ᴄᴏᴅᴇXʀᴜᴡᴀ ᴠ1 ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ`)
+
+}catch(e){
+console.log(e)
+reply(`${e}`)
+
+}
+})

@@ -16,7 +16,7 @@ try{
 
 let vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + `FN: ISHARA\n` 
+            + `FN: Ishara Ruwan\n` 
             + `ORG: CodeXruWA Bot Owner;\n` 
             + `TEL;type=CELL;type=VOICE;waid=94725337377:+94725337377\n` 
             + 'END:VCARD'

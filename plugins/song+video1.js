@@ -42,7 +42,7 @@ await conn.sendMessage(from, { image : { url : data.result.image } , caption : d
 //send audio+document
     
 await conn.sendMessage(from,{audio: {url: data.download.url },mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document: {url: data.download.url },mimetype:"audio/mpeg",fileName: data.result.title + ".mp3",caption:"> ɪɴꜰɪɴɪᴛʏ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ"},{quoted:mek})
+await conn.sendMessage(from,{document: {url: data.download.url },mimetype:"audio/mpeg",fileName: data.result.title + ".mp3",caption:"> ᴄᴏᴅᴇXʀᴜᴡᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ"},{quoted:mek})
          
 } else if(q.startsWith("https://") && q.includes("?si=")) {
 
@@ -69,7 +69,7 @@ await conn.sendMessage(from, { image : { url : data.result.image } , caption : d
 //send audio+document
     
 await conn.sendMessage(from,{audio: {url: data.download.url },mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document: {url: data.download.url },mimetype:"audio/mpeg",fileName: data.result.title + ".mp3",caption:"> ɪɴꜰɪɴɪᴛʏ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ"},{quoted:mek})
+await conn.sendMessage(from,{document: {url: data.download.url },mimetype:"audio/mpeg",fileName: data.result.title + ".mp3",caption:"> ᴄᴏᴅᴇXʀᴜᴡᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ"},{quoted:mek})
     
 } else if(!q.startsWith("https://")){
 
@@ -99,7 +99,7 @@ await conn.sendMessage(from,{image:{url: yts.image },caption:desc},{quoted:mek})
 //send audio+document
     
 await conn.sendMessage(from,{audio: {url: ytdl.download.url },mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document: {url: ytdl.download.url },mimetype:"audio/mpeg",fileName:yts.title + ".mp3",caption:"> ɪɴꜰɪɴɪᴛʏ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ"},{quoted:mek})
+await conn.sendMessage(from,{document: {url: ytdl.download.url },mimetype:"audio/mpeg",fileName:yts.title + ".mp3",caption:"> ᴄᴏᴅᴇXʀᴜᴡᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ"},{quoted:mek})
     
 }
 
@@ -149,7 +149,7 @@ await conn.sendMessage(from,{image:{url: data.result.image},caption:desc},{quote
 //send video+document
     
 await conn.sendMessage(from,{video: {url: data.download.url },mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document: {url: data.download.url },mimetype:"video/mp4",fileName:data.result.title + ".mp4",caption:"> ɪɴꜰɪɴɪᴛʏ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ"},{quoted:mek})
+await conn.sendMessage(from,{document: {url: data.download.url },mimetype:"video/mp4",fileName:data.result.title + ".mp4",caption:"> ᴄᴏᴅᴇXʀᴜᴡᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ"},{quoted:mek})
 
 } else if(q.startsWith("https://") && q.includes("?si=")) {
 
@@ -177,7 +177,7 @@ await conn.sendMessage(from,{image:{url: data.result.image},caption:desc},{quote
 //send video+document
     
 await conn.sendMessage(from,{video: {url: data.download.url },mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document: {url: data.download.url },mimetype:"video/mp4",fileName:data.result.title + ".mp4",caption:"> ɪɴꜰɪɴɪᴛʏ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ"},{quoted:mek})
+await conn.sendMessage(from,{document: {url: data.download.url },mimetype:"video/mp4",fileName:data.result.title + ".mp4",caption:"> ᴄᴏᴅᴇXʀᴜᴡᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ"},{quoted:mek})
 
 } else if(!q.startsWith("https://")){
 
@@ -207,7 +207,7 @@ await conn.sendMessage(from,{image:{url: yts.image },caption:desc},{quoted:mek})
 //send video+document
     
 await conn.sendMessage(from,{video: {url: ytdl.download.url },mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document: {url: ytdl.download.url },mimetype:"video/mp4",fileName:yts.title + ".mp4",caption:"> ɪɴꜰɪɴɪᴛʏ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ"},{quoted:mek})
+await conn.sendMessage(from,{document: {url: ytdl.download.url },mimetype:"video/mp4",fileName:yts.title + ".mp4",caption:"> ᴄᴏᴅᴇXʀᴜᴡᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ"},{quoted:mek})
 
 }
     

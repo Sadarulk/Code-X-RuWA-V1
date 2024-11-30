@@ -30,6 +30,7 @@
     "google-tts-api": "2.0.2",
     "wa-sticker-formatter": "4.4.4",
     "imagemaker.js": "^2.0.4",
+    "fluent-ffmpeg": "^2.1.3",
     "@blackamda/telegram-image-url": "1.0.0",
     "ruhend-scraper": "8.0.3"
   }

@@ -20,14 +20,9 @@ let desc = `
 😈 *VAR CONTROL*
 └────────────
 ┌────────────
-│ ✑ _.var ALIVE_IMG:
-│ ✑ _put img url_
-│
-│ ✑ _.var ALIVE_MSG:
-│ ✑ _put alive msg_
 │
 │ ✑ _.var PREFIX:
-│ ✑ _[.],[#],[,]_
+│ ✑ _ex:[ . # ? / ]_
 │
 │ ✑ _.var AUTO_READ_STATUS:_ 
 │ ✑ _true/false_

@@ -45,7 +45,14 @@ let desc = `
 │ ✑ _true/false_
 │ 
 │ ✑ _.var FAKE_RECORDING:
-│ ✑ _true/false_   
+│ ✑ _Edit config_
+│
+│ ✑ _.var READ_MESSAGE:
+│ ✑ _Edit config_
+│
+│ ✑ _.var AUTO_REACT:
+│ ✑ _Edit config_
+│
 └────────────
 
 > *𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐂𝐨𝐝𝐞𝐗😈*
